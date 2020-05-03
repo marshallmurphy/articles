@@ -5,9 +5,9 @@ import styles from './app.module.css';
 
 const App = () => {
   return (
-    <div className={styles.main}>
+    <main className={styles.main}>
 
-      <div className={styles.navbar}>
+      <nav className={styles.navbar}>
         <div className={styles.logo} tabIndex='0'>Logo</div>
         <div className={styles.navlinks}>
           <a href='#'>Link A</a>
@@ -16,12 +16,11 @@ const App = () => {
 
           <Dropdown />
         </div>
-      </div>
+      </nav>
 
       <div className={styles.body}>
-        <a href='https://medium.com/@marshalmurphy' target='_blank'>something else to Focus on...</a>
       </div>
-    </div>
+    </main>
   );
 }
 
